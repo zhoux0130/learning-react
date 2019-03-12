@@ -9,7 +9,7 @@ class App extends Component {
             items: [
                 {id: 1, name: 'deja vu'},
                 {id: 2, name: 'Cras justo odio'},
-                {id: 3, name: 'deja vu2'}
+                {id: 3, name: 'Morbi leo risus'}
             ]
         }
     }
