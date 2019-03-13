@@ -41,11 +41,13 @@ class App extends Component {
                                 <div className="btn-group">
                                     {
                                         index > 0 ?
-                                            <button className="btn btn-light" onClick={()=>this.moveUp(index)}>UP</button> : null
+                                            <button className="btn btn-light" onClick={() => this.moveUp(index)}>
+                                                UP</button> : null
                                     }
                                     {
-                                        index < this.state.items.length -1  ?
-                                            <button className="btn btn-light" onClick={()=>this.moveDown(index)}>DOWN</button> : null
+                                        index < this.state.items.length - 1 ?
+                                            <button className="btn btn-light" onClick={() => this.moveDown(index)}>
+                                                DOWN</button> : null
                                     }
                                 </div>
                             </li>
